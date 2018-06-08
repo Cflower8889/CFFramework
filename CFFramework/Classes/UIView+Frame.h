@@ -9,4 +9,11 @@
 
 @interface UIView (Frame)
 
+@property(nonatomic,assign)CGFloat      top;
+@property(nonatomic,assign)CGFloat      left;
+@property(nonatomic,assign)CGFloat      right;
+@property(nonatomic,assign)CGFloat      bottom;
+@property(nonatomic,assign)CGFloat      centerX;
+@property(nonatomic,assign)CGFloat      centerY;
+
 @end
