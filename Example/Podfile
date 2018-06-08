@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CFFramework_Example' do
+  pod 'CFFramework', :path => '../'
+
+  target 'CFFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

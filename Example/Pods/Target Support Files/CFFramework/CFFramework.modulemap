@@ -1,0 +1,6 @@
+framework module CFFramework {
+  umbrella header "CFFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CFFramework",
+  "version": "0.1.0",
+  "summary": "A short description of CFFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Cflower8889/CFFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cflower8889": "chenyongwei@syswin.com"
+  },
+  "source": {
+    "git": "https://github.com/Cflower8889/CFFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CFFramework/Classes/**/*"
+}
