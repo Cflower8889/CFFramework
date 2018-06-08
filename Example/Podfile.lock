@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CFFramework: dbceca61a3cc9a05735b213781701da187ca9cf2
+  CFFramework: ebd50739cbbef34079ab7136ad4ba3a27c4c2cdc
 
 PODFILE CHECKSUM: 062a31cd3a85cc5735217c2cd13ebfc5885422e3
 

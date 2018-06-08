@@ -12,8 +12,7 @@
     "Cflower8889": "chenyongwei@syswin.com"
   },
   "source": {
-    "git": "https://github.com/Cflower8889/CFFramework.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Cflower8889/CFFramework.git"
   },
   "platforms": {
     "ios": "8.0"

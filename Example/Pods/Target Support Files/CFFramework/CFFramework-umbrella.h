@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CFRouter.h"
 
 FOUNDATION_EXPORT double CFFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char CFFrameworkVersionString[];
