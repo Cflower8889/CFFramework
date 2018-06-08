@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		083E4B9429F02CF5BF69CB86E4134031 /* Pods-CFFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6546A7C1EC69C3BBEB3C5D2C41CBF670 /* Pods-CFFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D4E7AB18A848E9518033A43143A587F /* Pods-CFFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A5D98E7130C647AECDCA3257FEE6AD /* Pods-CFFramework_Tests-dummy.m */; };
-		21431B4D931870FBDF584A05FF3D37A7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B100B9E161C327C7785FBDCAC7BB483 /* ReplaceMe.m */; };
 		42B927FD37C85D711859778BCA0BA13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		745FD9D820CA30F200027BAE /* CFRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 745FD9D620CA30F200027BAE /* CFRouter.h */; };
+		745FD9D920CA30F200027BAE /* CFRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 745FD9D720CA30F200027BAE /* CFRouter.m */; };
 		7536B77360BF301763A87BAC358FA4EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		85FECBDE04F97EF725D2CC7A32C6BAE4 /* Pods-CFFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E369FBACE9D65C85CD07772793E13549 /* Pods-CFFramework_Example-dummy.m */; };
 		9032903A408302C7432F84A65E6FA6D1 /* CFFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F898312AE5EA6627EC505DF40E19A6D0 /* CFFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,7 +37,6 @@
 		2B93974729CE28C1682E4E9855DCA96D /* Pods-CFFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFFramework_Example-resources.sh"; sourceTree = "<group>"; };
 		2BA6633B1414D5D1A0D7423FA6854656 /* Pods-CFFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CFFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		2D0A213ECE5CB8E4F84E0A35C1CE50F1 /* Pods-CFFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3B100B9E161C327C7785FBDCAC7BB483 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		3F281043AF9855257BE3D0BD707CB717 /* Pods-CFFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4087843C1C7E282FD952F7B31001CFC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		449723211554C7DDE22C41CA4FD6B134 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,19 +44,21 @@
 		577D9BE473AC8A800109DF788565B614 /* CFFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFFramework-dummy.m"; sourceTree = "<group>"; };
 		6546A7C1EC69C3BBEB3C5D2C41CBF670 /* Pods-CFFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CFFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		745FD9D620CA30F200027BAE /* CFRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFRouter.h; sourceTree = "<group>"; };
+		745FD9D720CA30F200027BAE /* CFRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFRouter.m; sourceTree = "<group>"; };
 		822F69F19B7053136EA84BC3AEFAFCCD /* CFFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFFramework-prefix.pch"; sourceTree = "<group>"; };
 		87FA8A1DB77C27B70D0FA302BA69D05B /* Pods-CFFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		887AF3BD2B188796B60D4142E9051681 /* Pods-CFFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B53323ECA91A6571F8260BCC7AC88E7 /* Pods_CFFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CFFramework_Tests.framework; path = "Pods-CFFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B53323ECA91A6571F8260BCC7AC88E7 /* Pods_CFFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F492A9D703713E7F50B085936DDAA8 /* Pods-CFFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9488C5F323508DABA47E8A3B9AB030F8 /* CFFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CFFramework.modulemap; sourceTree = "<group>"; };
 		9B84FB83D8C6767F8DF8A713772C8B46 /* Pods-CFFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E076D5BC5490D0F1FFF6ED04887E3C9 /* Pods-CFFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFFramework_Tests-resources.sh"; sourceTree = "<group>"; };
 		AFFEE7A1C085D88A1A2AF4018D550BD0 /* Pods-CFFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1B606113E778A54FA7F7B34F337CA57 /* CFFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFFramework.xcconfig; sourceTree = "<group>"; };
-		CA7DCB4A8958774EBA83CECFC8F98D8A /* Pods_CFFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CFFramework_Example.framework; path = "Pods-CFFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D29440EBBD3C6BB7C1460F734E9DE085 /* CFFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CFFramework.framework; path = CFFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7DCB4A8958774EBA83CECFC8F98D8A /* Pods_CFFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29440EBBD3C6BB7C1460F734E9DE085 /* CFFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CFFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E369FBACE9D65C85CD07772793E13549 /* Pods-CFFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		E8B1FF6ECD458D7A0D9F29C96326D352 /* Pods-CFFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ECD05ECD7BA23962FEC0D2C64439D5F1 /* Pods-CFFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,9 +107,9 @@
 		2DC6A1BBF085758455CED5F2D02601B1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3B100B9E161C327C7785FBDCAC7BB483 /* ReplaceMe.m */,
+				745FD9D620CA30F200027BAE /* CFRouter.h */,
+				745FD9D720CA30F200027BAE /* CFRouter.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -141,7 +143,6 @@
 			children = (
 				2DC6A1BBF085758455CED5F2D02601B1 /* Classes */,
 			);
-			name = CFFramework;
 			path = CFFramework;
 			sourceTree = "<group>";
 		};
@@ -231,6 +232,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745FD9D820CA30F200027BAE /* CFRouter.h in Headers */,
 				9032903A408302C7432F84A65E6FA6D1 /* CFFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6BDDC81579366E91DA3CF2F0E886D4 /* CFFramework-dummy.m in Sources */,
-				21431B4D931870FBDF584A05FF3D37A7 /* ReplaceMe.m in Sources */,
+				745FD9D920CA30F200027BAE /* CFRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
