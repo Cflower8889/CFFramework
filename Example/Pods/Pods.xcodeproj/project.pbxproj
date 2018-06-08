@@ -15,6 +15,8 @@
 		5BA9D567EB2B08A02E69C9748F4F5327 /* CFFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9BE473AC8A800109DF788565B614 /* CFFramework-dummy.m */; };
 		745FD9DC20CA894C00027BAE /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 745FD9DA20CA894C00027BAE /* UIView+Frame.h */; };
 		745FD9DD20CA894C00027BAE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 745FD9DB20CA894C00027BAE /* UIView+Frame.m */; };
+		745FD9E020CA8FAA00027BAE /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 745FD9DE20CA8FAA00027BAE /* NSString+MD5.h */; };
+		745FD9E120CA8FAA00027BAE /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 745FD9DF20CA8FAA00027BAE /* NSString+MD5.m */; };
 		7536B77360BF301763A87BAC358FA4EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		85FECBDE04F97EF725D2CC7A32C6BAE4 /* Pods-CFFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E369FBACE9D65C85CD07772793E13549 /* Pods-CFFramework_Example-dummy.m */; };
 		E24E5F7BF682F43D2B37158792A2FC9F /* Pods-CFFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0681B058F7C4213034836F6C63FA7B1D /* Pods-CFFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +48,8 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		745FD9DA20CA894C00027BAE /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		745FD9DB20CA894C00027BAE /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		745FD9DE20CA8FAA00027BAE /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		745FD9DF20CA8FAA00027BAE /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		822F69F19B7053136EA84BC3AEFAFCCD /* CFFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFFramework-prefix.pch"; sourceTree = "<group>"; };
 		87FA8A1DB77C27B70D0FA302BA69D05B /* Pods-CFFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		887AF3BD2B188796B60D4142E9051681 /* Pods-CFFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -203,6 +207,8 @@
 			children = (
 				745FD9DA20CA894C00027BAE /* UIView+Frame.h */,
 				745FD9DB20CA894C00027BAE /* UIView+Frame.m */,
+				745FD9DE20CA8FAA00027BAE /* NSString+MD5.h */,
+				745FD9DF20CA8FAA00027BAE /* NSString+MD5.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				4B6178948C2371A770AA521AEF35FFBA /* CFFramework-umbrella.h in Headers */,
 				745FD9DC20CA894C00027BAE /* UIView+Frame.h in Headers */,
+				745FD9E020CA8FAA00027BAE /* NSString+MD5.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745FD9E120CA8FAA00027BAE /* NSString+MD5.m in Sources */,
 				745FD9DD20CA894C00027BAE /* UIView+Frame.m in Sources */,
 				5BA9D567EB2B08A02E69C9748F4F5327 /* CFFramework-dummy.m in Sources */,
 			);
