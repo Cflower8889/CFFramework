@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>photo</key>
+	<dict>
+		<key>in</key>
+		<string></string>
+		<key>out</key>
+		<string></string>
+		<key>executor</key>
+		<string>CFPhotoExecutor</string>
+	</dict>
+</dict>
+</plist>
